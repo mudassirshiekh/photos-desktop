@@ -38,5 +38,5 @@ jobs:
               env:
                   # setry crash reporting token
                   SENTRY_AUTH_TOKEN: "test-ignore"
-                  NEXT_PUBLIC_DISABLE_SENTRY: 1
+                  NEXT_PUBLIC_DISABLE_SENTRY: "true"
                   USE_HARD_LINKS: false
